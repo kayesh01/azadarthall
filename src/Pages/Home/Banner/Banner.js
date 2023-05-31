@@ -1,5 +1,5 @@
 import React from 'react';
-import flag from '../../../assets/human-map.jpg';
+import flag from '../../../assets/logo/human-map.jpg';
 import { Link } from 'react-router-dom';
 
 const Banner = () => {
