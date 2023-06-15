@@ -4,6 +4,7 @@ import Trust from '../Trust/Trust';
 import Strength from '../Strength/Strength';
 import Achivement from '../Achivement/Achivement';
 import Location from '../Location/Location';
+import Client from '../Client/Client';
 
 
 
@@ -16,6 +17,7 @@ const Home = () => {
             <Trust></Trust>
             <Strength></Strength>
             <Achivement></Achivement>
+            <Client></Client>
             <Location></Location>
         </div>
     );
