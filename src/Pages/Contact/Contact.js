@@ -3,35 +3,20 @@ import building from '../../assets/Contact/factory-building.jpg';
 
 const Contact = () => {
     return (
-        <div>
+        <div className='bg-slate-100'>
             <div>
                 <h2 className='text-4xl text-center mt-5 font-semibold'>Our Location and Contact Details.</h2>
             </div>
-            <div className='flex flex-row'>
-                <div>
+            <div className='flex flex-row pt-3'>
+                <div className='ms-5'>
                     <img src={building} alt="" />
                 </div>
-                <div className='ms-5'>
-                    <h2 className="card-title">Factory-1</h2>
-                    <p>107/A, Police fari road,</p>
-                    <p>Paradogair, Demra, Dhaka.</p>
-                    <p>Phone :+88-02-7545224</p>
-                    <p>E-mail: azadfactory24x7@gmail.com</p>
+                <div className='ms-5 mt-60'>
+                    <h2 className="card-title font-bold text-5xl">Factory-1</h2>
+                    <p className='font-bold mt-5 text-xl'>107/A, Police fari road, <br />Paradogair, Demra, Dhaka. <br />Phone :+88-02-7545224 <br />E-mail: azadfactory24x7@gmail.com</p>
                 </div>
             </div>
-            <div className='flex justify-center mt-5'>
-                <div className="card w-96 bg-base-100 shadow-xl">
-                    <div className="card-body">
-                        <h2 className="card-title">Factory-1</h2>
-                        <p>107/A, Police fari road,</p>
-                        <p>Paradogair, Demra, Dhaka.</p>
-                        <p>Phone :+88-02-7545224</p>
-                        <p>E-mail: azadfactory24x7@gmail.com</p>
-                    </div>
-                    <figure><img src={building} alt="Shoes" /></figure>
-                </div>
-            </div>
-            <div className="flex flex-col w-full lg:flex-row mt-5 px-1">
+            <div className="flex flex-col w-full lg:flex-row mt-5 px-1 pb-3">
                 <div className="grid flex-grow h-34 card bg-teal-700 hover:shadow-xl rounded-box place-items-center">
                     <div className='hover:uppercase font-semibold text-white'>
                         <p className='text-xl font-medium'>Head Office</p>

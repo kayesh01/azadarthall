@@ -6,6 +6,7 @@ import Services from "../../Pages/Services/Services";
 import Gallery from "../../Pages/Gallery/Gallery";
 import Concern from "../../Pages/Concern/Concern";
 import Contact from "../../Pages/Contact/Contact";
+import Unknown from "../../Pages/Unknown/Unknown";
 
 const router = createBrowserRouter([
     {
@@ -35,6 +36,10 @@ const router = createBrowserRouter([
             {
                 path: '/contact',
                 element: <Contact></Contact>
+            },
+            {
+                path: '/*',
+                element: <Unknown></Unknown>
             }
         ]
     }
