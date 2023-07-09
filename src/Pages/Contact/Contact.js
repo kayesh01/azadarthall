@@ -1,5 +1,5 @@
 import React from 'react';
-import building from '../../assets/Contact/factory-building.jpg';
+import building from '../../assets/Contact/05 Page.jpg';
 
 const Contact = () => {
     return (
@@ -8,7 +8,7 @@ const Contact = () => {
                 <h2 className='text-4xl text-center mt-5 font-semibold'>Our Location and Contact Details.</h2>
             </div>
             <div className='flex flex-row pt-3'>
-                <div className='ms-5'>
+                <div className='ms-5 w-3/5'>
                     <img src={building} alt="" />
                 </div>
                 <div className='ms-5 mt-60'>

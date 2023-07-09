@@ -1,5 +1,5 @@
 import React from 'react';
-import service1 from '../../assets/Services/1-billboard.jpg';
+import service1 from '../../assets/Services/06 Page.jpg';
 import service2 from '../../assets/Services/2-led-vehicle-signage.jpg';
 import service3 from '../../assets/Services/3-shop-branding.jpg';
 import service4 from '../../assets/Services/4-POP-kiosk-making.jpg';
