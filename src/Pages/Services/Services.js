@@ -12,7 +12,7 @@ const Services = () => {
     return (
         <div>
             <h1 className='text-3xl text-center'>Our Services</h1>
-            <img className='w-4/5 mx-auto mb-5' src={service} alt="" />
+            <img className='w-4/5 mx-auto my-5' src={service} alt="" />
             <div className="card lg:card-side bg-base-100 shadow-xl">
                 <figure className='h-96 w-96 ms-5'><img src={service1} alt="Album" /></figure>
                 <div className="card-body w-1/2">
