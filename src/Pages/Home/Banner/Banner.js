@@ -10,7 +10,7 @@ const Banner = () => {
                     <img src={flag} className="rounded-lg shadow-2xl w-full h-full" alt='' />
                 </div>
                 <div className="image-container w-1/2">
-                    <img src={certificate} className="rounded-lg shadow-2xl w-full h-[610px]" alt='' />
+                    <img src={certificate} className="rounded-lg shadow-2xl w-full lg:h-[610px]" alt='' />
                 </div>
             </div>
         </div>

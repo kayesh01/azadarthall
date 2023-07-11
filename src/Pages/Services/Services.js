@@ -1,4 +1,5 @@
 import React from 'react';
+import service from '../../assets/Services/02 Page.jpg';
 import service1 from '../../assets/Services/06 Page.jpg';
 import service2 from '../../assets/Services/2-led-vehicle-signage.jpg';
 import service3 from '../../assets/Services/3-shop-branding.jpg';
@@ -11,6 +12,7 @@ const Services = () => {
     return (
         <div>
             <h1 className='text-3xl text-center'>Our Services</h1>
+            <img className='w-4/5 mx-auto mb-5' src={service} alt="" />
             <div className="card lg:card-side bg-base-100 shadow-xl">
                 <figure className='h-96 w-96 ms-5'><img src={service1} alt="Album" /></figure>
                 <div className="card-body w-1/2">
