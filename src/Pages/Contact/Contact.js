@@ -1,11 +1,12 @@
 import React from 'react';
 import building from '../../assets/Contact/05 Page.jpg';
+import Team from '../Home/Team/Team';
 
 const Contact = () => {
     return (
         <div className='bg-slate-100'>
             <div>
-                <h2 className='text-4xl text-center mt-5 font-semibold'>Our Location and Contact Details.</h2>
+                <h2 className='text-4xl text-center font-semibold'>Location and Contact Details.</h2>
             </div>
             <div className='flex flex-row pt-3'>
                 <div className='ms-5 w-1/2'>
@@ -45,6 +46,7 @@ const Contact = () => {
                     </div>
                 </div>
             </div>
+            <Team></Team>
         </div>
     );
 };

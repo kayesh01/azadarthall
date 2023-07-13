@@ -7,7 +7,7 @@ const Footer = () => {
         <footer className="footer p-10 bg-base-200 text-base-content">
             <div>
                 <img className='w-2/4' src={logo} alt="" />
-                <p className='text-xl'>Azad Art Hall<br />Providing reliable digital printing since 1969</p>
+                <p className='text-xl'>Azad Art Hall<br />Providing reliable outdoor advertising since 1969</p>
             </div>
             <div>
                 <span className="footer-title">Services</span>
